@@ -101,3 +101,13 @@ button,button::after {
       transform: translate(0);
     }
   }
+
+  /* character count css */
+
+  .red{
+    color: red;
+  }
+
+  span{
+    margin-left: 75%;
+  }

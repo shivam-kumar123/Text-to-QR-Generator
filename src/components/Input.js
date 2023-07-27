@@ -7,7 +7,8 @@ function Input({makeQR}) {
         <input
             className='input'
             type='text'
-            Placeholder='Enter data ...'    
+            placeholder='Enter data ...'   
+            maxLength={300} 
             onChange={makeQR}
         />
     </div>
